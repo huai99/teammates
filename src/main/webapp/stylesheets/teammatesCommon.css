@@ -622,7 +622,11 @@ input.inline {
 }
 
 .btn-login:focus,
-.btn-login:hover,
+.btn-login:hover {
+    color: darkgreen;
+    background-color: white;
+}
+
 .btn-login:active {
     color: #00FF00;
 }
